@@ -1,3 +1,6 @@
+#Flower image
+![flower](IMage.png)
+
 # SimpleGraphics (Java / JavaFX)
 
 Starter code for creating a static image with JavaFX's Canvas — the Java version of the tessellation
