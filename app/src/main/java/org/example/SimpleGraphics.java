@@ -63,6 +63,11 @@ public class SimpleGraphics extends Application {
             gc.restore();
         }
     }
+    
+    public static void drawStem(double x1, double y1, double x2, double y2) {
+    gc.setLineWidth(5);
+    gc.strokeLine(x1, y1, x2, y2);
+}
 
     public static void fillPetals(double centerX, double centerY, int petalCount, double petalLength) {
     double angleStep = 360.0 / petalCount;

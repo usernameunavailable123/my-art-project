@@ -17,6 +17,8 @@ public class MyPicture {
 
     public static void drawPicture(double width, double height) {
         SimpleGraphics.fillBackground("blue");
+        SimpleGraphics.setOutlineColor("green");
+        SimpleGraphics.drawStem(200, 225, 200, 350);
         SimpleGraphics.drawPetals(200, 200, 12, 60);
         SimpleGraphics.setFillColor("white");
         SimpleGraphics.fillPetals(200, 200, 12, 60);
@@ -24,6 +26,8 @@ public class MyPicture {
         SimpleGraphics.setFillColor("#FFFF00");
         SimpleGraphics.fillCircle(200, 200, 25);
         //this code creates a circle for the pistil of the flower. 
+
+        
         
 
       
