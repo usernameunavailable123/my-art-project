@@ -63,6 +63,18 @@ public class SimpleGraphics extends Application {
             gc.restore();
         }
     }
+
+    public static void fillPetals(double centerX, double centerY, int petalCount, double petalLength) {
+    double angleStep = 360.0 / petalCount;
+    for (int i = 0; i < petalCount; i++) {
+        double angle = i * angleStep;
+        gc.save();
+        gc.translate(centerX, centerY);
+        gc.rotate(angle);
+        gc.fillOval(0, -petalLength / 4, petalLength, petalLength / 2);
+        gc.restore();
+    }
+}
     
 
     /** Called automatically by JavaFX after start(...) above calls launch(). */

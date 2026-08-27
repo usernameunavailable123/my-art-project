@@ -18,6 +18,8 @@ public class MyPicture {
     public static void drawPicture(double width, double height) {
         SimpleGraphics.fillBackground("blue");
         SimpleGraphics.drawPetals(200, 200, 12, 60);
+        SimpleGraphics.setFillColor("white");
+        SimpleGraphics.fillPetals(200, 200, 12, 60);
         // Fill the background
         SimpleGraphics.setFillColor("#FFFF00");
         SimpleGraphics.fillCircle(200, 200, 25);
